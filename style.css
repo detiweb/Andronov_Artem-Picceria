@@ -1,0 +1,143 @@
+body{
+	background-color:#fafafa;
+}
+header{
+	text-align:center;
+	height:240px;
+	background-color:#DC6F42;
+}
+header{
+    /* Убираю отступы. */
+    margin:0px;
+    /* Убираю еще отступы. */
+    padding:0px;
+    /* Задаю шрифт. */
+    font: 14px 'Verdana';
+}
+ul {
+    /* Убираю маркеры у списка*/
+    list-style: none;
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю отступы. */
+    margin:0px;
+    /* Убираю еще отступы! */
+    padding:0px;
+}
+ul:after {
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю выравнивание. */
+    float: none;
+    content: ' ';
+    clear: both;
+}
+ul.mmenuu > li {
+    /* Задаю выравнивание и позиционирование. */
+    float: left;
+    /* Считаем координаты относительно исходного места*/
+    position: relative;
+}
+ul.mmenuu > li > a {
+    /* Делаю элементы блочными: */
+    display: block;
+    /* Задаю белый цвет. */
+    color: #fff;
+    /* Задаю отступ 10px. */
+    padding: 10px;
+    /* Убираю форматирование*/
+    text-decoration: none;
+    /* Задаю цвет. */
+    background-color: #7D161F;
+}
+ul.mmenuu > li > a:hover {
+    /* Задаю цвет при наведении. */
+    background-color: #eb9316;
+}
+ul.ssubmenuu {
+    position: absolute;
+    width: 240px;
+    top: 37px;
+    left:0px;
+    /* Делаю субменю скрытыми. */
+    display: none;
+    /* Цвет — белый. */
+    background-color: white;
+}
+ul.ssubmenuu > li {
+    /* Блочное расположение элементов*/
+    display: block;
+}
+ul.ssubmenuu > li > a {
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю форматирование*/
+    text-decoration: none;
+    /* Задаю отступ. */
+    padding: 10px;
+    /* Задаю цвет. */
+    color: #ffffff;
+    /* Еще цвет. */
+    background-color: #F6B85C;
+}
+ul.ssubmenuu > li > a:hover {
+    /* Цвет бэкграунда при наведении. */
+    background-color: #eb9316;
+    /* Задаю подчеркивание*/
+    text-decoration: underline;
+}
+ul.mmenuu > li:hover > ul.ssubmenuu {
+    /* Делаю элементы блочными. */
+    display: block;
+}
+.card{
+	text-align:center;
+	margin-right:10%; 
+	margin-left:10%;
+	background-color:#F6B85C;
+	font-family: 'Open Sans', sans-serif;
+}
+.my-flex-container{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  font-family: 'Open Sans', sans-serif;
+  }
+ .my-flex-block{
+ 	border-radius: 10px;
+  border-color:#F6B85C;
+  border-style:solid;
+  font-family: 'Open Sans', sans-serif;
+ }
+ .div4{
+background-color:#DC6F42
+border-radius:10px;
+border-style:solid;
+border-color:#233e47;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+ }
+.conec{
+border-radius:10px;
+border-style:solid;
+border-color:#233e47;
+text-align:center;
+font-family: 'Open Sans', sans-serif;
+}
+footer{
+	height:50%; 
+	width:100%;
+	background:#DC6F42;
+}
+.div2{
+	margin-left:35%;
+	margin-top:25px;
+	width:30%;
+	display:inline-block;
+	text-align:left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div2 span{
+	color:#DC6F42;
